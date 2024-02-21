@@ -15,7 +15,7 @@ inject_button.addEventListener("click", () => {
 let CarAxleClient = document.getElementById("3rd-car-axle-client");
 
 CarAxleClient.addEventListener("click", () => {
-    js_input.value = `fetch("https://raw.githubusercontent.com/car-axle-client/car-axle-client/main/dist/build.js")   
+    js_input.value = `fetch("https://raw.githubusercontent.com/kaon-client/kaon-client/main/test)   
                 .then((res) => res.text())
                 .then((js) => eval(js))`;
 
